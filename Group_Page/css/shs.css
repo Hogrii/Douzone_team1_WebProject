@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle:wght@300&family=Stylish&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+.section-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 80px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+
+
+.section-about h2 {
+  margin: 0 auto 100px;
+  display: inline-block;
+  font-family: "GmarketBold";
+  color: #6a75ca;
+  font-size: 40px;
+}
+
+.txt-about dt {
+  display: inline-block;
+  margin-bottom: 17px;
+  width: 110px;
+  font-size: 22px;
+  font-family: "GmarketBold";
+  color: red;
+  
+}
+.self{
+  font-family: 'Stylish', sans-serif;
+}
+
+.txt-about {
+  margin-top: 55px;
+  font-family: 'Stylish', sans-serif;
+}
+
+.txt-about dd {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.info-about {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.slide-images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 438px;
+}
+
+.slide-images img {
+  width: 430px;
+  height: 420px;
+}
+
+.btn-about {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-about button {
+  margin: 0 5px;
+}
+
+.info-about div {
+  border: 4px solid red;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.con{
+  text-align: center;
+}
