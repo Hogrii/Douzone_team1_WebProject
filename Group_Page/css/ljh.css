@@ -9,6 +9,10 @@ h5 {
 body {
   font-size: 16px;
 }
+header > #titleName {
+  color: white;
+  font-size: large;
+}
 .w3-half img {
   margin-bottom: -6px;
   margin-top: 16px;
