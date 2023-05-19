@@ -17,7 +17,7 @@
     <!-- Sidebar/menu -->
     <nav
       class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding"
-      style="z-index: 3; width: 300px; font-weight: bold"
+      style="z-index: 3; width: 250px; font-weight: bold"
       id="mySidebar"
     >
       <br />
@@ -83,7 +83,7 @@
         onclick="w3_open()"
         >☰</a
       >
-      <span>Company Name</span>
+      <span id="titleName"><b>손송박이</b></span>
     </header>
 
     <!-- Overlay effect when opening sidebar on small screens -->
@@ -119,32 +119,61 @@
                 <dt>이름</dt>
                 <dd>송하석</dd>
               </div>
-              <div>
-                <dt>생년월일</dt>
-                <dd>95년 2월 8일</dd>
+              <dl class="txt-about">
+                <h4 class="display-font-weight self">
+                  안녕하세요! 근면성실한 맞춤형 인재를 목표로 하고 있는
+                  개발자입니다.
+                </h4>
+                <div>
+                  <dt>이름</dt>
+                  <dd>송하석</dd>
+                </div>
+                <div>
+                  <dt>생년월일</dt>
+                  <dd>95년 2월 8일</dd>
+                </div>
+                <div>
+                  <dt>거주지</dt>
+                  <dd>서울시 중랑구</dd>
+                </div>
+                <div>
+                  <dt>취미</dt>
+                  <dd>드라마 시청</dd>
+                </div>
+                <div>
+                  <dt>고민</dt>
+                  <dd>아침에 앉아서 대중교통 타고싶다ㅠㅠ</dd>
+                </div>
+              </dl>
+              <div class="btn-about">
+                <button class="btn btn-danger" type="button">
+                  <img src="src/img/icon-diary.png" alt="" />취미
+                </button>
+                <button class="btn btn-danger" type="button">
+                  <img src="src/img/icon-heart.png" alt="" />성격
+                </button>
               </div>
-              <div>
-                <dt>거주지</dt>
-                <dd>서울시 중랑구</dd>
-              </div>
-              <div>
-                <dt>취미</dt>
-                <dd>드라마 시청</dd>
-              </div>
-              <div>
-                <dt>고민</dt>
-                <dd>아침에 앉아서 대중교통 타고싶다ㅠㅠ</dd>
-              </div>
-            </dl>
-            <div class="btn-about">
-              <button class="btn btn-danger" type="button">
-                <img src="src/img/icon-diary.png" alt="" />취미
-              </button>
-              <button class="btn btn-danger" type="button">
-                <img src="src/img/icon-heart.png" alt="" />성격
-              </button>
             </div>
           </div>
+        </section>
+        <!-- Designers -->
+        <div class="w3-container" id="designers" style="margin-top: 75px">
+          <h1 class="w3-xxxlarge w3-text-red"><b>박성환</b></h1>
+          <hr style="width: 50px; border: 5px solid red" class="w3-round" />
+          <p>The best team in the world.</p>
+          <p>
+            We are lorem ipsum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+          <p><b>Our designers are thoughtfully chosen</b>:</p>
         </div>
       </section> 
 
