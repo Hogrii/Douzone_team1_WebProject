@@ -76,6 +76,8 @@ hr {
 }
 .info > div {
   margin-bottom: 10px;
+  font-size: large;
+}
 .goalContainer {
   padding: 5% 10% 5% 10%;
 }
