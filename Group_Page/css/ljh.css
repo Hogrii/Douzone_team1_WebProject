@@ -1,0 +1,80 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+.w3-half img {
+  margin-bottom: -6px;
+  margin-top: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-half img:hover {
+  opacity: 1;
+}
+#about,
+#introduce {
+  text-align: center;
+  font-weight: 600;
+}
+#about {
+  color: red;
+}
+.introduceContainer {
+  width: 100%;
+}
+.card.card-body {
+  width: 70%;
+}
+
+.carouselContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* flex-basis: 100%; */
+}
+#carouselExampleControls {
+  width: 25%;
+  height: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.carousel-inner {
+  border-radius: 50%;
+  border: 1px solid red;
+  height: 100%;
+}
+span,
+hr {
+  color: red;
+}
+.introduceList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.introduceList > div {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 10px;
+  min-height: 200px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: small;
+}
+.info > div {
+  margin-bottom: 10px;
+}
