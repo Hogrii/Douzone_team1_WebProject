@@ -60,6 +60,11 @@
       display: flex;
       align-items: center;
     }
+
+    .arrow:hover {
+      cursor: pointer;
+    }
+
     .second_line {
       width: 80%;
       height: 50%;
@@ -113,7 +118,7 @@
           <img src="img/team/team_1.png" , alt="..." class="img1" />
         </div>
         <div class="sub_container2">
-          <div class="arrow">
+          <div class="arrow" id="arrow">
             <i class="fas fa-arrow-right arro-icon" style="color: #ffffff"></i>
           </div>
           <img src="img/team/team_2.png" , alt="..." class="img2" />
@@ -131,5 +136,11 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById("arrow").onclick = () => {
+        location.href = "project.html";
+      };
+    </script>
   </body>
 </html>
