@@ -61,7 +61,7 @@ hr {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 .introduceList > div {
   text-align: center;
