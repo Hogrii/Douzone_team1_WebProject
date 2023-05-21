@@ -98,3 +98,10 @@ body {
   color: #fff !important;
   background-color: #ffaaaa !important;
 }
+a {
+  color: #ffaaaa;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffaaaa;
+}
