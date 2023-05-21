@@ -28,7 +28,7 @@ body {
   font-weight: 600;
 }
 #about {
-  color: red;
+  color: #ffaaaa;
 }
 .introduceContainer {
   width: 100%;
@@ -55,7 +55,7 @@ body {
 }
 span,
 hr {
-  color: red;
+  color: #ffaaaa;
 }
 .introduceList {
   width: 100%;
@@ -92,13 +92,13 @@ hr {
   padding: 20px;
 }
 .card-title {
-  color: red;
+  color: #ffaaaa;
   font-weight: 600;
 }
 .card {
   padding: 48px;
   border-radius: 8px;
-  border: 2px solid red;
+  border: 2px solid #ffaaaa;
 }
 .card > img {
   width: 50%;
@@ -109,4 +109,10 @@ hr {
 p.card-text {
   margin-top: 16px;
   font-weight: 600;
+}
+
+.w3-red,
+.w3-hover-red:hover {
+  color: #fff !important;
+  background-color: #ffaaaa !important;
 }
