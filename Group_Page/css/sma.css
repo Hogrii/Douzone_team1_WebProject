@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+}
+
+.w3-half img {
+  margin-bottom: -6px;
+  margin-top: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.w3-half img:hover {
+  opacity: 1;
+}
+
+#titleName {
+  color: white;
+  font-size: large;
+}
+
+.header {
+  text-align: center;
+  font-size: 4em;
+  margin: 56px 0px 160px 0px;
+}
+.content-box {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.about {
+  width: 100%;
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 3em;
+  color: #ffaaaa;
+}
+
+#about {
+  margin: 50px 0px 50px 0px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile {
+  /* border: 1px solid black; */
+  width: 25%;
+  text-align: center;
+  padding: 0 24px 0 24px;
+}
+
+.career {
+  width: 25%;
+}
+.career p {
+  margin-bottom: 8px;
+}
+.skill {
+  /* border: 1px solid black; */
+  height: 50%;
+  text-align: center;
+}
+
+.cerification {
+  /* border: 1px solid black; */
+  height: 50%;
+  text-align: center;
+}
+.goal {
+  /* border: 1px solid black; */
+  width: 25%;
+  text-align: center;
+}
+.photo > img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.infotitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.photo {
+  text-align: center;
+  font-size: 24px;
+  margin: 50px 0px 50px 0px;
+  font-weight: 600;
+}
+
+.w3-red,
+.w3-hover-red:hover {
+  color: #fff !important;
+  background-color: #ffaaaa !important;
+}
+
+a {
+  color: #ffaaaa;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffaaaa;
+}
