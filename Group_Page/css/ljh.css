@@ -22,6 +22,15 @@ body {
 .w3-half img:hover {
   opacity: 1;
 }
+a {
+  color: #ffaaaa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffaaaa;
+}
+
 #about,
 #introduce {
   text-align: center;
