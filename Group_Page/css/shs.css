@@ -23,7 +23,6 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: white;
-  padding: 80px 0 140px 0;
   margin: 0 0 140px 0;
 }
 
@@ -43,7 +42,6 @@ body {
   font-family: "GmarketBold";
 
   color: #ffaaaa;
-
 }
 .self {
   font-family: "Stylish", sans-serif;
@@ -60,7 +58,8 @@ body {
 }
 
 .info-about {
-  margin: 0 auto;
+  margin-left: 340px;
+  margin-right: 40px;
   max-width: 600px;
 }
 
@@ -69,6 +68,12 @@ body {
   display: flex;
   justify-content: center;
   height: 438px;
+
+  border: 4px solid #ffaaaa;
+
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .slide-images img {
@@ -86,13 +91,15 @@ body {
   margin: 0 5px;
 }
 
-.info-about div {
-
+.txt-about div {
   border: 4px solid #ffaaaa;
 
   border-radius: 4px;
   padding: 5px;
   margin-bottom: 10px;
+}
+.w3-round {
+  margin-top: 15px;
 }
 .con {
   text-align: center;
@@ -109,4 +116,5 @@ a {
 }
 a:hover {
   color: #ffaaaa;
+  text-decoration-line: none;
 }
