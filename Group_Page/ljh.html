@@ -20,88 +20,13 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <style>
-      body,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5 {
-        font-family: "Poppins", sans-serif;
-      }
-      #about,
-      #introduce {
-        text-align: center;
-        font-weight: 600;
-      }
-      #about {
-        color: red;
-      }
-      body {
-        font-size: 16px;
-      }
-      .w3-half img {
-        margin-bottom: -6px;
-        margin-top: 16px;
-        opacity: 0.8;
-        cursor: pointer;
-      }
-      .w3-half img:hover {
-        opacity: 1;
-      }
-      .btn.myInfo {
-        background-color: red;
-        color: white;
-        font-weight: 600;
-      }
-      .card.card-body {
-        width: 70%;
-      }
-      .introduceList {
-        width: 100%;
-        display: flex;
-      }
-      .introduceList > div {
-        width: 25%;
-        text-align: center;
-        margin-top: 25px;
-        font-weight: bold;
-        padding: 10px;
-      }
-      span,
-      hr {
-        color: red;
-      }
-      .carouselContainer {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-      #carouselExampleControls {
-        width: 25%;
-        height: 25%;
-        margin-top: 16px;
-        margin-bottom: 16px;
-      }
-      .carousel-inner {
-        border-radius: 50%;
-      }
-      .info {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        font-size: small;
-      }
-      .info > div {
-        margin-bottom: 10px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/ljh.css" />
   </head>
   <body>
     <!-- Sidebar/menu -->
     <nav
       class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding"
-      style="z-index: 3; width: 300px; font-weight: bold"
+      style="z-index: 3; width: 250px; font-weight: bold"
       id="mySidebar"
     >
       <br />
@@ -119,16 +44,16 @@
       </div>
       <div class="w3-bar-block">
         <a
-          href="#"
+          href="index.html"
           onclick="w3_close()"
           class="w3-bar-item w3-button w3-hover-white"
           >홈</a
         >
         <a
-          href="project.html#"
+          href="main.html"
           onclick="w3_close()"
           class="w3-bar-item w3-button w3-hover-white"
-          >개별프로젝트</a
+          >메인</a
         >
         <a
           href="sma.html"
@@ -167,7 +92,7 @@
         onclick="w3_open()"
         >☰</a
       >
-      <span><b>손송박이</b></span>
+      <span id="titleName"><b>손송박이</b></span>
     </header>
 
     <!-- Overlay effect when opening sidebar on small screens -->
@@ -183,11 +108,16 @@
     <div class="w3-main" style="margin-left: 340px; margin-right: 40px">
       <!-- Header -->
       <div class="w3-container" style="margin-top: 80px" id="showcase">
-        <h1 class="w3-xxxlarge w3-text-red"><b>이진호</b></h1>
+        <h1 class="w3-xxxlarge w3-text" style="color: #ffaaaa">
+          <a
+            href="http://192.168.0.172:8091/Group_Homework/map.html"
+            target="blank"
+            ><b>이진호</b></a
+          >
+        </h1>
         <hr style="width: 50px; border: 5px solid red" class="w3-round" />
       </div>
-      <p></p>
-      <p></p>
+      <!-- About Me start-->
       <div class="introduceContainer">
         <!-- carousel start -->
         <div class="carouselContainer">
@@ -198,16 +128,32 @@
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/ebichu1.png" class="d-block w-100" alt="..." />
+                <img
+                  src="img/ljh/ebichu1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="carousel-item">
-                <img src="images/ebichu2.jpg" class="d-block w-100" alt="..." />
+                <img
+                  src="img/ljh/ebichu2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="carousel-item">
-                <img src="images/ebichu3.jpg" class="d-block w-100" alt="..." />
+                <img
+                  src="img/ljh/ebichu3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="carousel-item">
-                <img src="images/ebichu4.gif" class="d-block w-100" alt="..." />
+                <img
+                  src="img/ljh/ebichu4.gif"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
             </div>
             <button
@@ -276,14 +222,70 @@
             <span>스킬</span>
             <hr />
             <div class="info">
-              lo
               <div>Java, JavaScript</div>
               <div>Oracle</div>
               <div>Spring</div>
               <div>Eclipse, VSCode</div>
               <div>Tomcat, git</div>
             </div>
-            lo
+          </div>
+        </div>
+        <!-- About Me end -->
+      </div>
+      <!-- Goal start -->
+      <div class="goalContainer">
+        <div class="goalTitle">
+          <h4 id="about">This Year's</h4>
+          <h2 id="introduce">Resolution</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="img/ljh/company_icon.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">취업하기</h5>
+                <p class="card-text">취업하고 싶어요</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="img/ljh/health_icon.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">건강해지기</h5>
+                <p class="card-text">건강하고 싶어요</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="img/ljh/travle_icon.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">여행 다녀오기</h5>
+                <p class="card-text">여행가고 싶어요</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/ljh/meet_icon.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">사람들 많이 만나기</h5>
+                <p class="card-text">사람들 보고 싶어요</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
